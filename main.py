@@ -51,8 +51,12 @@ while True:
         saldo, extrato, saque_maximo, saques_disponiveis = operations.saque(saldo, extrato, saque_maximo, saques_disponiveis)
 
     elif operacao == "3":
-        print("Dados bancários".center(50, "-"), f"""\n
-            Seu extrato:\n\n{extrato}""",f"\nSaldo: R$ {saldo:.2f}","\n","-".center(50, "-"), "\n")
+        if extrato == "":
+            print("Não há transações para exibir.")
+            continue
+        else:
+            print("Dados bancários".center(50, "-"), f"""\n
+                Seu extrato:\n\n{extrato}""",f"\nSaldo: R$ {saldo:.2f}","\n","-".center(50, "-"), "\n")
         
     elif operacao == "4":
         print("Obrigado por utilizar nossos serviços.")
