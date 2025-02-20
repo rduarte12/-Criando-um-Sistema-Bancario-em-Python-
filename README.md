@@ -38,15 +38,18 @@ INÍCIO do programa
         SENÃO:
             EXIBIR mensagem de operação inválida e solicitar novamente
 
-FIM do programa´´´
+FIM do programa
+```
 
 ## Explicando as funções
 
 - 'deposito()': Função que verifica a possibilidade e, caso possível, realiza o depósito na conta.
 - 'saque()'   : Função que verifica a possibilidade e, caso possível, realiza o saque da conta.
 
-##Tecnologias Utilizadas
+## Tecnologias Utilizadas
+
 - Python
 
-###Autor
+### Autor
+
 Desenvolvido por [@rduarte12](https://github.com/rduarte12)
