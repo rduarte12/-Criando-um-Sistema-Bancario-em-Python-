@@ -39,7 +39,7 @@ INÍCIO do programa
             EXIBIR mensagem de operação inválida e solicitar novamente
 
 FIM do programa
-'''
+plaintext'''
 
 ## Explicando as funções
 
