@@ -38,7 +38,7 @@ INÍCIO do programa
         SENÃO:
             EXIBIR mensagem de operação inválida e solicitar novamente
 
-FIM do programa```
+FIM do programa´´´
 
 ## Explicando as funções
 
